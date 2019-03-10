@@ -1,0 +1,145 @@
+Interface:
+<Interface>:
+	cols: 1
+	
+	display1: display1
+	display2: display2
+	display3: display3
+	display4: display4
+	GridLayout:
+		cols: 3
+		canvas.before:
+			Rectangle:
+				pos: self.pos
+				size: self.size
+				source: 'tl.jpg'
+		Button:
+			on_press: root.plus1()
+			background_color: 0, 0, 0, 0
+			BoxLayout:
+				pos: self.parent.pos
+				size: self.parent.size
+				Image:
+					source: 'plus.png'
+					y: self.parent.y
+					x: self.parent.x
+            
+		Label:
+			id: display1
+			text: "40"
+			font_size: "45sp"
+		Button:
+			on_press: root.minus1()
+			background_color: 0, 0, 0, 0
+			BoxLayout:
+				pos: self.parent.pos
+				size: self.parent.size
+				Image:
+					source: 'minus.png'
+					y: self.parent.y
+					x: self.parent.x
+
+
+
+
+	GridLayout:
+		cols: 3
+		canvas.before:
+			Rectangle:
+				pos: self.pos
+				size: self.size
+				source: 'tr.jpg'
+		Button:
+			on_press: root.plus2()
+			background_color: 0, 0, 0, 0
+			BoxLayout:
+				pos: self.parent.pos
+				size: self.parent.size
+				Image:
+					source: 'plus.png'
+					y: self.parent.y
+					x: self.parent.x
+            
+		Label:
+			id: display2
+			text: "40"
+			font_size: "45sp"
+		Button:
+			on_press: root.minus2()
+			background_color: 0, 0, 0, 0
+			BoxLayout:
+				pos: self.parent.pos
+				size: self.parent.size
+				Image:
+					source: 'minus.png'
+					y: self.parent.y
+					x: self.parent.x
+
+
+
+	GridLayout:
+		cols: 3
+		canvas.before:
+			Rectangle:
+				pos: self.pos
+				size: self.size
+				source: 'bl.jpg'
+		Button:
+			on_press: root.plus3()
+			background_color: 0, 0, 0, 0
+			BoxLayout:
+				pos: self.parent.pos
+				size: self.parent.size
+				Image:
+					source: 'plus.png'
+					y: self.parent.y
+					x: self.parent.x
+            
+		Label:
+			id: display3
+			text: "40"
+			font_size: "45sp"
+		Button:
+			on_press: root.minus3()
+			background_color: 0, 0, 0, 0
+			BoxLayout:
+				pos: self.parent.pos
+				size: self.parent.size
+				Image:
+					source: 'minus.png'
+					y: self.parent.y
+					x: self.parent.x
+	GridLayout:
+		cols: 3
+		canvas.before:
+			Rectangle:
+				pos: self.pos
+				size: self.size
+				source: 'br.jpg'
+		Button:
+			on_press: root.plus4()
+			background_color: 0, 0, 0, 0
+			BoxLayout:
+				pos: self.parent.pos
+				size: self.parent.size
+				Image:
+					source: 'plus.png'
+					y: self.parent.y
+					x: self.parent.x
+            
+		Label:
+			id: display4
+			text: "40"
+			font_size: "45sp"
+		Button:
+			on_press: root.minus4()
+			background_color: 0, 0, 0, 0
+			BoxLayout:
+				pos: self.parent.pos
+				size: self.parent.size
+				Image:
+					source: 'minus.png'
+					y: self.parent.y
+					x: self.parent.x
+
+
